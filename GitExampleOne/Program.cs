@@ -12,6 +12,8 @@ namespace GitExampleOne
         {
             string firstName = "Trevor";
 
+            string sweetness = "Not Brett";
+
             string lastName = "Griest";
 
             string instructorName1 = "Ernest";
@@ -27,10 +29,10 @@ namespace GitExampleOne
             int oldAge = age + puttingOnSomeYears;
 
             int instructorAge1 = 33;
-               
+
             int instructorAge2 = 35;
 
-            Console.WriteLine(firstName + " " +lastName);
+            Console.WriteLine(firstName + " " + lastName);
 
             Console.WriteLine("I am " + age + " years old");
 
@@ -41,6 +43,9 @@ namespace GitExampleOne
             Console.WriteLine("My instructor today is " + instructorName1 + ", and he is " + instructorAge1 + " years old.");
 
             Console.WriteLine("My instructor yesterday was " + instructorName2 + " and she looks to be " + instructorAge2 + " years old.");
-         }
+
+            Console.WriteLine("Who is the sweetness? " + sweetness + "!");
+
+        }
     }
 }
